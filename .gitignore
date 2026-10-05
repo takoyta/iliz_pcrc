@@ -1,0 +1,32 @@
+# Build output
+bin/
+dist/
+
+# Personal config next to a copied exe (secrets). The published example is defaults/config.json.
+/config.json
+debug.log
+*.log
+
+# Local helper, not part of the client
+src/_write_debug.py
+
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipdb
+*.iobj
+*.map
+*.exe
+*.zip
+
+# IDE / OS
+.cursor/
+.vs/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store

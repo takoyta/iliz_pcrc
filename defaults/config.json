@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "ilizEnabled": true,
+  "ownEnabled": false,
+  "token": "",
+  "server": "http://127.0.0.1:8080",
+  "controlPage": "",
+  "telegramBotUsername": "",
+  "telegramDeepLink": "",
+  "botToken": "",
+  "allowedIds": "",
+  "buttons": [
+    { "row": 1, "label": "⏮", "action": "media", "value": "prev" },
+    { "row": 1, "label": "⏸", "action": "media", "value": "pause" },
+    { "row": 1, "label": "⏭", "action": "media", "value": "next" },
+    { "row": 1, "label": "-2%", "action": "media", "value": "vol_down" },
+    { "row": 1, "label": "+2%", "action": "media", "value": "vol_up" },
+    { "row": 2, "label": "Alt+Esc", "action": "keys", "value": "alt+esc" },
+    { "row": 2, "label": "Alt+Tab", "action": "keys", "value": "alt+tab" },
+    { "row": 2, "label": "Alt+F4", "action": "keys", "value": "alt+f4" },
+    { "row": 3, "label": "Screenshot", "action": "system", "value": "shot" },
+    { "row": 3, "label": "Display Off", "action": "system", "value": "display" },
+    { "row": 3, "label": "Minimize", "action": "keys", "value": "win+m" },
+    { "row": 4, "label": "Lock", "action": "system", "value": "lock" },
+    { "row": 4, "label": "Screen off", "action": "system", "value": "display" },
+    { "row": 5, "label": "beep", "action": "system", "value": "beep" }
+  ]
+}

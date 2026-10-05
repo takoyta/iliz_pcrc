@@ -1,0 +1,36 @@
+#include "appinfo.h"
+
+1 24 "app.manifest"
+
+IDI_APP     ICON "app.ico"
+IDI_APP_OFF ICON "app_off.ico"
+IDI_APP_MSG ICON "app_msg.ico"
+
+1 VERSIONINFO
+FILEVERSION    APP_VER_MAJOR,APP_VER_MINOR,APP_VER_PATCH,0
+PRODUCTVERSION APP_VER_MAJOR,APP_VER_MINOR,APP_VER_PATCH,0
+FILEFLAGSMASK  0x3fL
+FILEFLAGS      0x0L
+FILEOS         0x40004L
+FILETYPE       0x1L
+FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName",      APP_COMPANY_A "\0"
+            VALUE "FileDescription",  APP_DESC_A "\0"
+            VALUE "FileVersion",      APP_VERSION_A "\0"
+            VALUE "InternalName",     APP_INTERNAL_A "\0"
+            VALUE "LegalCopyright",   APP_COPYRIGHT_A "\0"
+            VALUE "OriginalFilename", APP_EXE_A "\0"
+            VALUE "ProductName",      APP_NAME_A "\0"
+            VALUE "ProductVersion",   APP_VERSION_A "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
